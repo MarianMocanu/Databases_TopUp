@@ -3,7 +3,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-mysqlCredentials
+#files
+mysqlCredentials.js
 
 # User-specific files
 *.rsuser
