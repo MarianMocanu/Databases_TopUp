@@ -5,6 +5,7 @@
 
 #files
 mysqlCredentials.js
+yarn.lock
 
 # User-specific files
 *.rsuser
