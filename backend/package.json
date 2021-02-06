@@ -1,0 +1,26 @@
+{
+  "name": "databases_topup",
+  "version": "1.0.0",
+  "description": "A project serving the scope of my top-up course Databases",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env PORT=80 node app.js",
+    "start-dev": "cross-env PORT=3001 nodemon app.js",
+    "start-prod": "sudo cross-env PORT=80 pm2 start app.js -f"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarianMocanu/Databases_TopUp.git"
+  },
+  "author": "Gh. Marian Mocanu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarianMocanu/Databases_TopUp/issues"
+  },
+  "homepage": "https://github.com/MarianMocanu/Databases_TopUp#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1"
+  }
+}
